@@ -31,6 +31,7 @@ padding-top: 7vw;
 }
 .players img{
  width: 100%;
+ height: 15vw;
 
 }
 .player-1{
@@ -69,3 +70,48 @@ button:hover{
 .grid-column{
  grid-column: 1/2;
 }
+.btnName h2{
+ position: relative;
+ left: -4em;
+ top: 2em;
+ color: gray;
+}
+.budget{
+ color: white;
+ width: 300px;
+ text-align:center;
+ background-color: black;
+ grid-column: 4;
+ grid-row: 2 / span 2;
+ height: 35vw;
+ padding-top: 2vw;
+}
+.budget input{
+ width: 20vh;
+ height: 4vh;
+ background-color: black;
+ color: white;
+
+
+}
+.label{
+
+ border: 1px solid gray;
+ width: 80px;
+ margin: auto;
+ position: relative;
+ bottom: 6px;
+ top: 10px;
+ 
+}
+.input-div{
+margin-bottom: 20px;
+margin-top: 15px;
+
+}
+.total{
+ display: flex;
+justify-content:space-around;
+}
+
+
