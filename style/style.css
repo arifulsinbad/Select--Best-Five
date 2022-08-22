@@ -1,0 +1,38 @@
+body{
+ margin: 0;
+ padding: 0;
+ background-color: rgba(3, 9, 17, 0.938) ;
+}
+
+.title{
+
+height: 35em;
+width: 100%;
+ text-align: center;
+
+
+}
+.title p {
+ width: 30%;
+ color: white;
+ margin: auto;
+}
+.title h1{
+ color: rgb(246, 111, 84);
+ font-family:'Times New Roman', Times, serif jne;
+ font-weight:700;
+padding-top: 7vw;
+ font-size: 4vw;
+}
+.title img{
+ width: 10em;
+ position: absolute;
+ right:  30px;
+}
+.players img{
+ width: 20%;
+ margin-top: 70px;
+}
+.btnName{
+ text-align: center;
+}
