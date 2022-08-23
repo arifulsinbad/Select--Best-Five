@@ -113,5 +113,16 @@ margin-top: 15px;
  display: flex;
 justify-content:space-around;
 }
+table{
+ width: 80%;
+ font-size: 25px;
+ margin-top: 50px;
+ margin-left: 15px;
+ 
+}
+table th {
+ padding: 10px;
+}
+
 
 
