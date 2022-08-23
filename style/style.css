@@ -52,7 +52,7 @@ height: 27vw;
 
 
 }
-button:hover{
+button:focus{
  background-color:gray;
 }
 .players-container{
@@ -123,6 +123,15 @@ table{
 table th {
  padding: 10px;
  
+}
+footer{
+ text-align: center;
+ background-color: black;
+ color: rgb(255, 141, 92);
+ height: 10vw;
+ padding-top: 20px;
+ margin-top: 50px;
+ border-top: 2px solid gray;
 }
 
 

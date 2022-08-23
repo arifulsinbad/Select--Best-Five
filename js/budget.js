@@ -2,13 +2,19 @@ function inputValue(element){
  const inputField = document.getElementById(element);
  const inputString = inputField.value;
  const inputNumber = parseFloat(inputString);
+ if(isNaN(inputNumber)){
+  alert('Number Please')
+ 
+ }
  return inputNumber;
 }
 function total(element, value){
  const totalField = document.getElementById(element);
  totalField.innerText = value;
+
 }
-function calculate(){
+
+document.getElementById('calculate-1').addEventListener('click', function(){
 
  const selectString = addArray.length
  const selectNumber = parseInt(selectString);
@@ -19,16 +25,10 @@ function calculate(){
  
 
 
-}
-document.getElementById('calculate-1').addEventListener('click', function(){
-
-
- calculate()
-
 })
 document.getElementById('calculate-2').addEventListener('click', function(){
 
- calculate()
+ 
  const playerTotal = document.getElementById('player-total');
 const playerString = playerTotal.innerText;
 const playerNumber = parseFloat(playerString)

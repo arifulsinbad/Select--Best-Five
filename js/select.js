@@ -48,6 +48,8 @@ player(addArray)
 
 function DisableNextButton(btnId) {
  document.getElementById(btnId).disabled = 'true';
+ const colorChang = document.getElementById(btnId);
+ colorChang.style.backgroundColor = 'gray'
 }
 
 
