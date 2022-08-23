@@ -2,6 +2,8 @@ body{
  margin: 0;
  padding: 0;
  background-color: rgba(3, 9, 17, 0.938) ;
+ font-family: 'Poppins', sans-serif;
+
 }
 
 .title{
@@ -19,10 +21,11 @@ width: 100%;
 }
 .title h1{
  color: rgb(246, 111, 84);
- font-family:'Times New Roman', Times, serif jne;
+ /* font-family:'Times New Roman', Times, serif jne; */
  font-weight:700;
 padding-top: 7vw;
  font-size: 4vw;
+ /* font-family: 'Berkshire Swash', cursive; */
 }
 .title img{
  width: 10em;
@@ -83,7 +86,7 @@ button:focus{
  background-color: black;
  grid-column: 4;
  grid-row: 2 / span 2;
- height: 35vw;
+ height: 38vw;
  padding-top: 2vw;
 }
 .budget input{
@@ -115,7 +118,7 @@ justify-content:space-around;
 }
 table{
  width: 80%;
- font-size: 25px;
+ font-size: 22px;
  margin-top: 50px;
  margin-left: 15px;
  

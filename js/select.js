@@ -5,9 +5,7 @@ function player(players){
  tableBody.innerHTML = '';
  for(let i = 0; i < players.length; i++){
   const element = addArray[i].nameValue;
-  if(element === i){
-   player.setAttr
-  }
+ 
 
   const tr = document.createElement('tr');
  tr.innerHTML = `
@@ -46,11 +44,7 @@ player(addArray)
 
 }
 
-function DisableNextButton(btnId) {
- document.getElementById(btnId).disabled = 'true';
- const colorChang = document.getElementById(btnId);
- colorChang.style.backgroundColor = 'gray'
-}
+
 
 
 

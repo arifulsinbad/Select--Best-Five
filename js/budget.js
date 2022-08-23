@@ -1,18 +1,4 @@
-function inputValue(element){
- const inputField = document.getElementById(element);
- const inputString = inputField.value;
- const inputNumber = parseFloat(inputString);
- if(isNaN(inputNumber)){
-  alert('Number Please')
- 
- }
- return inputNumber;
-}
-function total(element, value){
- const totalField = document.getElementById(element);
- totalField.innerText = value;
 
-}
 
 document.getElementById('calculate-1').addEventListener('click', function(){
 
