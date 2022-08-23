@@ -5,12 +5,7 @@ function player(players){
  tableBody.innerHTML = '';
  for(let i = 0; i < players.length; i++){
   const element = addArray[i].nameValue;
-  
-  if(i === 5){
-   
-   alert('Sorry , You are not available')
-   break;
-  }
+
   const tr = document.createElement('tr');
  tr.innerHTML = `
  <th> ${i + 1.}</th>
@@ -26,22 +21,27 @@ function player(players){
 function selectBtn(select){
 
 const nameValue = select.parentNode.children[0].innerText;
-console.log(nameValue)
+
 const addObject = {
  nameValue: nameValue
 }
 
-addArray.push(addObject);
+
+if(addArray.length < 5){
+ 
+ addArray.push(addObject);
+}
+else{
+ alert('Sorry,Add Not Available')
+}
 
  const selected = document.getElementById('select-5');
  selected.innerText = addArray.length;
- 
+
 player(addArray)
 
 }
-function disable(x){
- x.disable = true;
-}
+
 
  
 
