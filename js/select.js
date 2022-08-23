@@ -5,6 +5,9 @@ function player(players){
  tableBody.innerHTML = '';
  for(let i = 0; i < players.length; i++){
   const element = addArray[i].nameValue;
+  if(element === i){
+   player.setAttr
+  }
 
   const tr = document.createElement('tr');
  tr.innerHTML = `
@@ -28,6 +31,7 @@ const addObject = {
 
 
 if(addArray.length < 5){
+
  
  addArray.push(addObject);
 }
@@ -41,6 +45,11 @@ else{
 player(addArray)
 
 }
+
+function DisableNextButton(btnId) {
+ document.getElementById(btnId).disabled = 'true';
+}
+
 
 
  
